@@ -51,7 +51,7 @@ export const portfolioItems = [
     id: 1,
     banner: "/images/portfolio-1.png",
     title: "Nutritionist",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima consequuntur, hic possimus aut perferendis optio laborum architecto illo a.",
+    text: "A clean, modern, and fully responsive multi-page website designed for a nutritionist or diet planning service. It features smooth navigation across 7 core pages: Home, About, Team, Process, Plans, Blog, and Contact.",
     icons: [
       { icon: "/images/icon-5.svg" },
       { icon: "/images/icon-6.svg" },
@@ -63,7 +63,7 @@ export const portfolioItems = [
     id: 2,
     banner: "/images/portfolio-2.png",
     title: "Skillpath",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima consequuntur, hic possimus aut perferendis optio laborum architecto illo a.",
+    text: "SkillPath is a fully responsive e-learning platform built with Next.js, TypeScript, Tailwind CSS, and Framer Motion. It offers a modern UI with smooth animations and an engaging user experience.",
     icons: [
       { icon: "/images/icon-5.svg" },
       { icon: "/images/icon-6.svg" },
@@ -75,7 +75,7 @@ export const portfolioItems = [
     id: 3,
     banner: "/images/portfolio-3.png",
     title: "Estatein",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima consequuntur, hic possimus aut perferendis optio laborum architecto illo a.",
+    text: "Estatein is a real estate listing platform built with Next.js, TypeScript, and Tailwind CSS. It provides a clean and user-friendly interface to showcase properties with smooth browsing across sections.",
     icons: [
       { icon: "/images/icon-5.svg" },
       { icon: "/images/icon-6.svg" },
@@ -86,13 +86,13 @@ export const portfolioItems = [
   {
     id: 4,
     banner: "/images/portfolio-4.png",
-    title: "Tripe website",
-    text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui minima consequuntur, hic possimus aut perferendis optio laborum architecto illo a.",
+    title: "Tripify",
+    text: "Tripify is a responsive travel and booking website that allows users to explore destinations and book trips with ease. It features a sleek layout and intuitive navigation for a seamless experience.",
     icons: [
       { icon: "/images/icon-4.svg" },
       { icon: "/images/icon-6.svg" },
       { icon: "/images/icon-3.svg" },
     ],
-    link: "",
+    link: "https://tripe-topis.vercel.app/",
   },
 ];
