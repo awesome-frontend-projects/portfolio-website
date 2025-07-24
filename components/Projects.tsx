@@ -17,12 +17,13 @@ export default function Projects() {
         viewport={{ once: true }}
         className="container"
       >
-        <motion.h2 variants={variants.fadeInUp}>Project hights</motion.h2>
+        <motion.h2 variants={variants.fadeInUp}>Featured Projects</motion.h2>
         <motion.p
           variants={variants.fadeInUp}
           className="font-light text-neutral-400"
         >
-          these are some projects to showcase my skills in frontend development
+          A selection of projects that highlight my expertise in frontend
+          development.
         </motion.p>
 
         {/* Card wrapper */}
