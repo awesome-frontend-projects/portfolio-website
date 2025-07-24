@@ -23,7 +23,11 @@ export default function Header() {
           <ul className="space-y-2">
             {navItems.map((item) => (
               <li key={item.id}>
-                <Link href={item.href} className={`block `}>
+                <Link
+                  href={item.href}
+                  className={`block `}
+                  onClick={handleClick}
+                >
                   {item.label}
                 </Link>
               </li>

@@ -5,6 +5,7 @@ import React from "react";
 
 import { motion } from "motion/react";
 import * as variants from "@/motion/animation";
+import { RiPlayFill } from "@remixicon/react";
 
 export default function Hero() {
   return (
@@ -50,10 +51,15 @@ export default function Hero() {
             attention to detail and deliver high-quality, user-friendly web
             interfaces.
           </motion.p>
-          <motion.p variants={variants.fadeInUp} className="mt-4">
-            Just click here to understand what I mean.
-            <a href="#"></a>
-          </motion.p>
+
+          <motion.a
+            variants={variants.fadeInUp}
+            href="https://youtu.be/r0WDbT046E8?si=gUZtWCzNwcmi51n0"
+            target="_blanck"
+            className="block mt-3 transition-colors max-w-max mx-auto bg-cyan-700 hover:bg-cyan-800 px-6 py-2.5 rounded-full "
+          >
+            Watch Video
+          </motion.a>
         </div>
 
         <motion.div
