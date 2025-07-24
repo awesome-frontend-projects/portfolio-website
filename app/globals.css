@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  @apply dark:bg-neutral-900 dark:text-neutral-50 bg-neutral-100 text-neutral-800 text-sm xl:text-base;
+  @apply bg-neutral-100 text-neutral-800 text-sm xl:text-base;
 }
 
 @layer utilities {
