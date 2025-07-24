@@ -33,7 +33,7 @@ export default function Hero() {
         {/* content */}
         <div className="text-center z-10 space-y-3">
           <h1 className="text-3xl font-semibold mt-4 lg:text-4xl capitalize">
-            👋 I'm medhanye
+            👋 I'm medhanye Tsegay
           </h1>
           <p className="max-w-[780px]">
             I have over 4 years of experience in frontend development. I build
