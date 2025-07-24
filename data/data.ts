@@ -83,16 +83,16 @@ export const portfolioItems = [
     ],
     link: "https://estatein-mauve.vercel.app/",
   },
-  {
-    id: 4,
-    banner: "/images/portfolio-4.png",
-    title: "Tripify",
-    text: "Tripify is a responsive travel and booking website that allows users to explore destinations and book trips with ease. It features a sleek layout and intuitive navigation for a seamless experience.",
-    icons: [
-      { icon: "/images/icon-4.svg" },
-      { icon: "/images/icon-6.svg" },
-      { icon: "/images/icon-3.svg" },
-    ],
-    link: "https://tripe-topis.vercel.app/",
-  },
+  // {
+  //   id: 4,
+  //   banner: "/images/portfolio-4.png",
+  //   title: "Tripify",
+  //   text: "Tripify is a responsive travel and booking website that allows users to explore destinations and book trips with ease. It features a sleek layout and intuitive navigation for a seamless experience.",
+  //   icons: [
+  //     { icon: "/images/icon-4.svg" },
+  //     { icon: "/images/icon-6.svg" },
+  //     { icon: "/images/icon-3.svg" },
+  //   ],
+  //   link: "https://tripe-topis.vercel.app/",
+  // },
 ];
