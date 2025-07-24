@@ -5,7 +5,6 @@ import React from "react";
 
 import { motion } from "motion/react";
 import * as variants from "@/motion/animation";
-import { RiPlayFill } from "@remixicon/react";
 
 export default function Hero() {
   return (
@@ -31,7 +30,7 @@ export default function Hero() {
             className="rounded-full w-full h-full object-cover aspect-square"
           />
           {/* border effect */}
-          <div className="absolute top-0 left-0 w-[750px] h-[250px] rounded-full bg-neutral-50 -z-10 block glow-animation blur-lg" />
+          <div className="absolute origin-center top-0 left-0 w-[750px] h-[250px] rounded-full bg-neutral-50 -z-10 block glow-animation blur-lg" />
         </motion.figure>
 
         {/* content */}
