@@ -20,7 +20,7 @@ export default function Hero() {
         {/* banner */}
         <motion.figure
           variants={variants.fadeIn}
-          className="w-[200px] h-[200px] mx-auto relative overflow-hidden p-1.5 rounded-full ring ring-neutral-700 z-10"
+          className="w-[200px] h-[200px] mx-auto relative overflow-hidden p-1.5 rounded-full ring ring-neutral-700 z-10 aspect-square"
         >
           <Image
             src="/images/portfolio-img.jpg"
