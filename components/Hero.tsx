@@ -41,7 +41,7 @@ export default function Hero() {
           >
             👋 I&apos;m medhanye Tsegay
           </motion.h1>
-          <motion.p variants={variants.fadeInUp} className="max-w-[780px]">
+          <motion.p variants={variants.fadeInUp} className="text-pretty">
             I've spent the last 4+ years solving one challenge: how to make the
             web faster, more beautiful, and accessible to everyone. Working
             professionally as a frontend developer, I build scalable React
