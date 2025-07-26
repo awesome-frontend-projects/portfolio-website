@@ -42,8 +42,8 @@ export default function Hero() {
             👋 I&apos;m medhanye Tsegay
           </motion.h1>
           <motion.p variants={variants.fadeInUp} className="text-pretty">
-            I've spent the last 4+ years solving one challenge: how to make the
-            web faster, more beautiful, and accessible to everyone. Working
+            I&apos;ve spent the last 4+ years solving one challenge: how to make
+            the web faster, more beautiful, and accessible to everyone. Working
             professionally as a frontend developer, I build scalable React
             applications and lightning-fast Next.js sites that handle real-world
             traffic. My TypeScript-powered solutions are built for performance
@@ -51,11 +51,11 @@ export default function Hero() {
             practices, and writing maintainable code. Every project I ship works
             flawlessly across all devices and delivers the user experience your
             customers deserve.
-            <p className="mt-3">
+            <span className="mt-3 block">
               Watch me test one of my projects live running performance audits,
               SEO analysis, accessibility checks, and demonstrating the best
               practices that make it score 100/100 across all metrics.
-            </p>
+            </span>
           </motion.p>
 
           <motion.a
