@@ -39,10 +39,10 @@ export default function Projects() {
               <figure>
                 <Image
                   src={item.banner}
-                  width={500}
-                  height={500}
+                  width={635}
+                  height={310}
                   alt="project"
-                  className="w-full object-cover h-[300px]"
+                  className="w-full h-full object-cover"
                 />
               </figure>
 
