@@ -1,12 +1,13 @@
 "use client";
-import { heroIcons } from "@/data/data";
-import Image from "next/image";
 import React from "react";
-
+import { cn } from "@/lib/utils";
+import { Spotlight } from "./ui/spotlight";
+import Image from "next/image";
 import { motion } from "motion/react";
 import * as variants from "@/motion/animation";
+import { heroIcons } from "@/data/data";
 
-export default function Hero() {
+export function Hero() {
   return (
     <motion.section
       id="home"
@@ -14,8 +15,18 @@ export default function Hero() {
       initial="hidden"
       whileInView="show"
       viewport={{ once: true }}
-      className="py-20 lg:py-32 xl:py-36 relative bg-gradient-to-r before:w-full before:h-3/4 before:bg-gradient-to-r before:bg-neutral-950/78 before:z-10 before:absolute before:top-0 before:left-0"
+      className="relative flex py-28 lg:py-36 w-full overflow-hidden rounded-md bg-black/[0.96] antialiased md:items-center md:justify-center"
     >
+      <div
+        className={cn(
+          "pointer-events-none absolute inset-0 [background-size:40px_40px] select-none",
+          "[background-image:linear-gradient(to_right,#171717_1px,transparent_1px),linear-gradient(to_bottom,#171717_1px,transparent_1px)]"
+        )}
+      />
+      <Spotlight
+        className="-top-40 left-0 md:-top-20 md:left-60"
+        fill="white"
+      />
       <div className="container grid justify-center">
         {/* banner */}
         <motion.figure
@@ -78,13 +89,6 @@ export default function Hero() {
             </button>
           ))}
         </motion.div>
-        <Image
-          src="/images/hero-img.png"
-          width={1600}
-          height={650}
-          alt="banner"
-          className="absolute top-0 left-0 -z-20 h-3/4 object-cover w-full"
-        />
       </div>
     </motion.section>
   );

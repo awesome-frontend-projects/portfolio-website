@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={dm_sans.className}>
-      <body>{children}</body>
+      <body className="dark">{children}</body>
     </html>
   );
 }

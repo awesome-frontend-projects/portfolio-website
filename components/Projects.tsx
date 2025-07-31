@@ -27,7 +27,7 @@ export default function Projects() {
         </motion.p>
 
         {/* Card wrapper */}
-        <div className="grid gap-4 lg:gap-8 mt-10 lg:mt-12 md:grid-cols-2">
+        <div className="grid gap-4 mt-10 lg:mt-12 md:grid-cols-2 lg:grid-cols-3">
           {portfolioItems.map((item) => (
             // Card
             <motion.div
